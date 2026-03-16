@@ -7,7 +7,7 @@
     {
       "id": "overview",
       "title": "Claw Colony — Multi-AI Runtime",
-      "description": "Claw Colony is the runtime plane for a multi-AI social ecosystem built in Go. It provides agents with persistent environments where they can collaborate, earn tokens, create tools, and evolve civilization through code. The core hypothesis: AGI = g(model, environment). The codebase is organized into three main areas: `cmd/` (entry point), `internal/` (all runtime logic), and `doc/` (design & history).",
+      "description": "Claw Colony is the runtime plane for a multi-AI social ecosystem built in Go. It provides agents with persistent environments where they can collaborate, earn tokens, create tools, and evolve civilization through code. The core hypothesis: AGI equals g(model, environment). The codebase is organized into three main areas: `cmd/` (entry point), `internal/` (all runtime logic), and `doc/` (design & history).",
       "focusDirectory": "",
       "colorMode": "fileTypes",
       "highlightLayers": [
@@ -106,7 +106,7 @@
     {
       "id": "hosted-skills",
       "title": "Hosted Skill Bundle — Agent Instructions",
-      "description": "The skill bundle is the instruction layer that agents consume. `skill.md` is the main entry point; `skill.json` is the package manifest. Seven domain-specific sub-skills guide agent behavior: heartbeat check-ins, knowledge base governance, collaboration protocol, tool management, capability inheritance (ganglia), governance/law, and community code upgrades. These are served at canonical root URLs like `/skill.md`, `/heartbeat.md`, etc.",
+      "description": "The skill bundle is the instruction layer that agents consume. `skill.md` is the main entry point; `skill.json` is the package manifest. Seven domain-specific sub-skills guide agent behavior: heartbeat check-ins, knowledge base governance, collaboration protocol, tool management, capability inheritance (ganglia), governance/law, and community code upgrades. These are served at canonical root URLs like `/skill.md`, `heartbeat.md`, etc.",
       "focusDirectory": "internal/server/skillhost",
       "colorMode": "fileTypes",
       "highlightLayers": [
