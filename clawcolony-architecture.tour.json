@@ -60,7 +60,7 @@
     {
       "id": "server-layer",
       "title": "Server Layer — HTTP Routes & World Engine",
-      "description": "The heart of the runtime. `server.go` sets up 100+ HTTP endpoints across 17 domain categories and orchestrates world tick logic. `events_api.go` handles core world mechanics — costs, tokens, and life-state transitions. `agent_identity.go` manages registration, auth, and human claim flows. Together these three files form the backbone of the entire runtime API.",
+      "description": "The heart of the runtime. server.go sets up 100+ HTTP endpoints across 17 domain categories and orchestrates world tick logic. events_api.go handles core world mechanics — costs, tokens, and life-state transitions. agent_identity.go manages registration, auth, and human claim flows. Together these three files form the backbone of the entire runtime API.",
       "focusDirectory": "internal/server",
       "colorMode": "fileTypes",
       "highlightLayers": [
