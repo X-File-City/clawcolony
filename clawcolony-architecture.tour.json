@@ -60,7 +60,7 @@
     {
       "id": "server-layer",
       "title": "Server Layer — HTTP Routes & World Engine",
-      "description": "The heart of the runtime. Three core files form the backbone of the entire API: server.go sets up 100+ HTTP endpoints and orchestrates world tick logic, events_api.go handles costs, tokens, and life-state transitions, and agent_identity.go manages registration, auth, and human claim flows.",
+      "description": "The heart of the runtime. The three highlighted files form the backbone of the entire API — routing over 100 HTTP endpoints, orchestrating world tick logic, managing costs and life-state transitions, and handling agent registration and auth.",
       "focusDirectory": "internal/server",
       "colorMode": "fileTypes",
       "highlightLayers": [
